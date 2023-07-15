@@ -1,12 +1,12 @@
 #include <stdio.h>
 /**
- * main - entry point
+ * main - Entry point
  *
- * return: Always 0 (success)
+ * Return: Always 0 (success)
  */
 
 int main(void){
-        printif("size of a char %d byte(s) \n", sizeof(char));
+	 printif("size of a char %d byte(s) \n", sizeof(char));
 	 printif("size of an int %d byte(s) \n", sizeof(int));
 	 printif("size of a long int %d byte(s) \n", sizeof(long int));
 	 printif("size of a long long int %d byte(s) \n", sizeof(long long int));
